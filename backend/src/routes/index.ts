@@ -21,6 +21,7 @@ router.get(
 );
 
 // router.use("/v1/users", userRoutes);
+
 router.use("/v1/accidents", accidentRoutes);
 router.use("/v1/analysis", analysisRoutes);
 
